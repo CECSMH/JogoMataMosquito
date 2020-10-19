@@ -1,0 +1,54 @@
+html {
+	cursor: url(img/raquete.png) 30 30, auto;
+}
+
+body{
+	background: url(img/bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.LittleFly {
+	width: 50px;
+	height: 50px;
+}
+
+.MediumFly{
+	width: 70px;
+	height: 70px;
+}
+
+
+.BigFly{
+	width: 90px;
+	height: 90px;
+}
+
+.RightSide{
+	transform: scaleX(1);
+}
+
+.LeftSide{
+	transform: scaleX(-1);
+}
+
+.HP{
+	float: left;
+}
+
+.Time{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Painel{
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	bottom: 0px;
+	left: 0px;
+	border-top: solid 1px white;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 15px;
+}

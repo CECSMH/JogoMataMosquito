@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Playing</title>
+	<meta charset="utf-8">
+
+	<!--Referencia ao arquivo css-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Referencia ao arquivo javascript-->
+	<script src="game.js"></script>
+
+</head>
+<body onresize="resizeField()">
+
+	<div class="Painel">
+
+		<!--corações de vida-->
+		<div class="HP">
+			<img id="hp1" src="img/HPH.png">
+			<img id="hp2" src="img/HPH.png">
+			<img id="hp3" src="img/HPH.png">
+			<img id="hp4" src="img/HPH.png">
+			<img id="hp5" src="img/HPH.png">
+		</div>
+
+		<!--cronometro-->
+		<div class="Time">
+			Tempo restante: <span id="regressive"></span>
+		</div>
+	</div>
+
+	<!--chamada da logica do jogo-->	<script>
+		regressiveTime()
+		var createFly = setInterval(function(){randomPosition()}, createTime)
+	</script>
+</body>
+</html>
