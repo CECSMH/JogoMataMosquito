@@ -2,7 +2,7 @@
 
 <p>Jogo de navegador no qual você deve matar(clicar) nos mosquitos antes que eles sumam</p>
 <br><br>
-<h2>Liguagens</h2>
+<h2>Linguagens</h2>
 <ul>
 <li>HTML5</li>
 <li>CSS</li>
