@@ -7,6 +7,7 @@
 <li>HTML5</li>
 <li>CSS</li>
 <li>JavaScript</li>
+<li>BootStrap</li>
 </ul>
 <br><br>
 <h2>Como usar</h2>
